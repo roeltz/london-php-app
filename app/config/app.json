@@ -1,0 +1,9 @@
+{
+	"http": {
+		"base": "/london-app",
+		"view": {
+			"dir": "app/src/views",
+			"defaultEngine": "php"
+		}
+	}
+}

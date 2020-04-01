@@ -1,0 +1,23 @@
+{
+	"autoload": {
+		"psr-0": {
+			"": [
+				"src/controllers",
+				"src/model"
+			]
+		},
+		"files": [
+			"init.php"
+		]
+	},
+	"require": {
+		"roeltz/london": "*"
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../../london"
+		}
+	],
+	"minimum-stability": "dev"
+}
